@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #2c3e50;
+    text-align: center;
+}
+
+.avatar {
+    display: block;
+    margin: 0 auto 20px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid #2c3e50;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.skills {
+    list-style-type: circle;
+    padding-left: 40px;
+    margin-bottom: 20px;
+}
+
+.skills li {
+    margin-bottom: 10px;
+}
+
+.contacts a {
+    color: #2c3e50;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.contacts a:hover {
+    color: #e74c3c;
+}
